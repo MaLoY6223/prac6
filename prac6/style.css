@@ -1,0 +1,60 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    padding: 30px;
+}
+
+header
+{
+    display: flex;
+    color: gray;
+    padding: 40px;
+}
+
+header > h1
+{
+    justify-content: space-between;
+    text-align: center;
+}
+
+header > div
+{
+    justify-content: flex-end;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+header > div > p
+{
+    margin-right: 50px;
+    display: inline;
+    justify-content: flex-end;
+}
+
+.news
+{
+    border-bottom: 2px solid gray;
+    padding-bottom: 2px;
+}
+
+.last_news
+{
+    display: flex;
+    color: gray;
+    padding: 40px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 3px;
+}
+
+.BUSINESS
+{
+    display: flex;
+    color: gray;
+    padding: 40px;
+}
